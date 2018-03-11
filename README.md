@@ -3,14 +3,14 @@ Jianshu Li*, Jian Zhao*, Yunchao Wei, Congyan Lang, Yidong Li, Jiashi Feng, "Tow
 
 
 ### Problem Definition
-- To our best knowledge, we are the first to propose a new Multi-Human Parsing task.
+- To our best knowledge, we are the first to propose a new Multi-Human Parsing task, corresponding datasets and baseline methods.
 
 
 - Multi-Human Parsing refers to partitioning a crowd scene image into semantically consistent regions belonging to the body parts or clothes items while differentiating different identities, such that each pixel in the image is assigned a semantic part label, as well as the identity it belongs to. A lot of higher-level applications can be founded upon Multi-Human Parsing, such as virtual reality, automatic production recommendation, video surveillance, and group behavior analysis.
 
 
 ### Motivation
-Multi-Human Parsing is proposed to push the frontiers of fine-grained visual understanding of humans in crowd scene. Multi-Human Parsing is significantly different from traditional well-defined object recognition tasks, such as object detection, which only provides coarse-level predictions of object locations (bounding boxes); instance segmentation, which only predicts the instance-level mask without any detailed information on body parts and fashion categories; human parsing, which operates on category-level prediction without  differentiating different identities. In real world scenario, the setting of multiple persons with interactions are more realistic and usual. Thus a dataset and corresponding benchmark to consider both the fine-grained semantic information of each individual person and the interactions and relationships of the whole group of people is highly desired.
+Multi-Human Parsing is proposed to push the frontiers of fine-grained visual understanding of humans in crowd scene. Multi-Human Parsing is significantly different from traditional well-defined object recognition tasks, such as object detection, which only provides coarse-level predictions of object locations (bounding boxes); instance segmentation, which only predicts the instance-level mask without any detailed information on body parts and fashion categories; human parsing, which operates on category-level prediction without  differentiating different identities. In real world scenario, the setting of multiple persons with interactions are more realistic and usual. Thus a task and corresponding benchmark to consider both the fine-grained semantic information of each individual person and the relationships and interactions of the whole group of people is highly desired.
 
 
 ### Citation
