@@ -17,5 +17,5 @@ To our best knowledge, we are the first to propose a new Multi-Human Parsing tas
    }
   
   
-  ### Multi-Human Parsing (MHP) Dataset
-  The MHP v1.0 dataset is also available at [google drive](https://drive.google.com/file/d/1hTS8QJBuGdcppFAr_bvW2tsD9hW_ptr5/view?usp=sharing) and [baidu drive](https://pan.baidu.com/s/1mjTtWqW) (password: cmtp).
+ ### Multi-Human Parsing (MHP) Dataset
+ The MHP v1.0 dataset is available at [google drive](https://drive.google.com/file/d/1hTS8QJBuGdcppFAr_bvW2tsD9hW_ptr5/view?usp=sharing) and [baidu drive](https://pan.baidu.com/s/1mjTtWqW) (password: cmtp).
