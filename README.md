@@ -10,7 +10,13 @@
 
 
 ### Motivation
-- Multi-Human Parsing is proposed to push the frontiers of fine-grained visual understanding of humans in crowd scene. Multi-Human Parsing is significantly different from traditional well-defined object recognition tasks, such as object detection, which only provides coarse-level predictions of object locations (bounding boxes); instance segmentation, which only predicts the instance-level mask without any detailed information on body parts and fashion categories; human parsing, which operates on category-level prediction without  differentiating different identities. In real world scenario, the setting of multiple persons with interactions are more realistic and usual. Thus a task and corresponding benchmark to consider both the fine-grained semantic information of each individual person and the relationships and interactions of the whole group of people is highly desired.
+- The Multi-Human Parsing project of Learning and Vision (LV) Group, National University of Singapore (NUS) is proposed to push the frontiers of fine-grained visual understanding of humans in crowd scene. 
+
+
+- Multi-Human Parsing is significantly different from traditional well-defined object recognition tasks, such as object detection, which only provides coarse-level predictions of object locations (bounding boxes); instance segmentation, which only predicts the instance-level mask without any detailed information on body parts and fashion categories; human parsing, which operates on category-level pixel-wise prediction without differentiating different identities. 
+
+
+- In real world scenario, the setting of multiple persons with interactions are more realistic and usual. Thus a task, corresponding datasets and baseline methods to consider both the fine-grained semantic information of each individual person and the relationships and interactions of the whole group of people are highly desired.
 
 
 ### Citation
