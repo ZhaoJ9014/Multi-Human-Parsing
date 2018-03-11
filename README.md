@@ -8,13 +8,14 @@ The recent progress of human parsing techniques has been largely driven by the a
 
 Please consult and consider citing the following papers:
 
+
    @article{li2017towards,
-  title={Towards Real World Human Parsing: Multiple-Human Parsing in the Wild},
-  author={Li, Jianshu and Zhao, Jian and Wei, Yunchao and Lang, Congyan and Li, Yidong and Feng, Jiashi},
-  journal={arXiv preprint arXiv:1705.07206},
-  year={2017}
-  }
+   title={Towards Real World Human Parsing: Multiple-Human Parsing in the Wild},
+   author={Li, Jianshu and Zhao, Jian and Wei, Yunchao and Lang, Congyan and Li, Yidong and Feng, Jiashi},
+   journal={arXiv preprint arXiv:1705.07206},
+   year={2017}
+   }
   
   
   ### Multi-Human Parsing (MHP) Dataset
-  The MHP v1.0 dataset is also available at [google drive](https://drive.google.com/file/d/1hTS8QJBuGdcppFAr_bvW2tsD9hW_ptr5/view?usp=sharing) and [baidu drive](https://pan.baidu.com/s/1mjTtWqW), password: cmtp.
+  The MHP v1.0 dataset is also available at [google drive](https://drive.google.com/file/d/1hTS8QJBuGdcppFAr_bvW2tsD9hW_ptr5/view?usp=sharing) and [baidu drive](https://pan.baidu.com/s/1mjTtWqW) (password: cmtp).
