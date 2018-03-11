@@ -17,10 +17,10 @@ To our best knowledge, we are the first to propose a new Multi-Human Parsing tas
 
 
 ### Multi-Human Parsing (MHP) v1.0 Dataset
-<img src="https://github.com/ZhaoJ9014/Multi-Human-Parsing_MHP/Figures/Fig1.png" width="1000px"/>
+<img src="https://github.com/ZhaoJ9014/Multi-Human-Parsing_MHP/blob/master/Figures/Fig1.png" width="1000px"/>
 
 
-<img src="https://github.com/ZhaoJ9014/Multi-Human-Parsing_MHP/Figures/Fig2.png" width="1000px"/>
+<img src="https://github.com/ZhaoJ9014/Multi-Human-Parsing_MHP/blob/master/Figures/Fig2.png" width="1000px"/>
 
 
 - Statistics: The MHP v1.0 dataset contains 4,980 images, each with at least two persons (average is 3). We randomly choose 980 images and their corresponding annotations as the testing set. The rest form a training set of 3,000 images and a validation set of 1,000 images. For each instance, 18 semantic categories are defined and annotated except for the "background" category, i.e. “hat”, “hair”, “sunglasses”, “upper clothes”, “skirt”, “pants”, “dress”, “belt”, “left shoe”, “right shoe”, “face”, “left leg”, “right leg”, “left arm”, “right arm”, “bag”, “scarf” and “torso skin”. Each instance has a complete set of annotations whenever the corresponding category appears in the current image. 
