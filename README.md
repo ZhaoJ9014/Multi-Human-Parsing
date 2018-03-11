@@ -29,6 +29,13 @@ To our best knowledge, we are the first to propose a new Multi-Human Parsing tas
 - Download: The MHP v1.0 dataset is available at [google drive](https://drive.google.com/file/d/1hTS8QJBuGdcppFAr_bvW2tsD9hW_ptr5/view?usp=sharing) and [baidu drive](https://pan.baidu.com/s/1mjTtWqW) (password: cmtp).
 
 
+### The CVPR 2018 Workshop
+- We will organize the CVPR 2018 Workshop on Visual Understanding of Humans in Crowd Scene ([VUHCS2018](http://cvpr2018.thecvf.com/program/workshops)). This workshop is collaborated by NUS, CMU, and SYSU. Based on VUHCS2017, we have further strengthened this workshop by augmenting it with 6 competition tracks: the single-person human parsing, the single-person pose estimation, the multi-person human parsing, the multi-person video parsing, the fine-grained multi-human parsing, and the multi-human pose estimation, which are expected to be released on 04/2018.
+
+
+- [Call for Papers](https://www.ece.nus.edu.sg/lv/files/VUHCS2018.pdf)
+
+
 ### Citation
 - [wechat news](https://mp.weixin.qq.com/s/tfiPHvkhPW4HDEUzBMseGQ). Please consult and consider citing the following papers:
 
