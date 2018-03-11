@@ -1,1 +1,1 @@
-# Multi-Human-Parsing
+# Multi-Human-Parsing (MHP)
