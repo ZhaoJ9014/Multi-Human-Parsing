@@ -1,5 +1,5 @@
 ### Multi-Human-Parsing (MHP)
-Jianshu Li*, Jian Zhao*, Yunchao Wei, Congyan Lang, Yidong Li, Jiashi Feng, "Towards Real World Human Parsing: Multiple-Human Parsing in the Wild", ArXiv 2017. (* indicates equal contributions)
+- Jianshu Li*, Jian Zhao*, Yunchao Wei, Congyan Lang, Yidong Li, Jiashi Feng, "Towards Real World Human Parsing: Multiple-Human Parsing in the Wild", ArXiv 2017. (* indicates equal contributions)
 
 
 ### Problem Definition
@@ -10,11 +10,11 @@ Jianshu Li*, Jian Zhao*, Yunchao Wei, Congyan Lang, Yidong Li, Jiashi Feng, "Tow
 
 
 ### Motivation
-Multi-Human Parsing is proposed to push the frontiers of fine-grained visual understanding of humans in crowd scene. Multi-Human Parsing is significantly different from traditional well-defined object recognition tasks, such as object detection, which only provides coarse-level predictions of object locations (bounding boxes); instance segmentation, which only predicts the instance-level mask without any detailed information on body parts and fashion categories; human parsing, which operates on category-level prediction without  differentiating different identities. In real world scenario, the setting of multiple persons with interactions are more realistic and usual. Thus a task and corresponding benchmark to consider both the fine-grained semantic information of each individual person and the relationships and interactions of the whole group of people is highly desired.
+- Multi-Human Parsing is proposed to push the frontiers of fine-grained visual understanding of humans in crowd scene. Multi-Human Parsing is significantly different from traditional well-defined object recognition tasks, such as object detection, which only provides coarse-level predictions of object locations (bounding boxes); instance segmentation, which only predicts the instance-level mask without any detailed information on body parts and fashion categories; human parsing, which operates on category-level prediction without  differentiating different identities. In real world scenario, the setting of multiple persons with interactions are more realistic and usual. Thus a task and corresponding benchmark to consider both the fine-grained semantic information of each individual person and the relationships and interactions of the whole group of people is highly desired.
 
 
 ### Citation
-[wechat news](https://mp.weixin.qq.com/s/tfiPHvkhPW4HDEUzBMseGQ). Please consult and consider citing the following papers:
+- [wechat news](https://mp.weixin.qq.com/s/tfiPHvkhPW4HDEUzBMseGQ). Please consult and consider citing the following papers:
 
 
       @article{li2017towards,
