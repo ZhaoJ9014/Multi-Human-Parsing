@@ -1,5 +1,5 @@
 ### Multi-Human-Parsing (MHP)
-To our best knowledge, we are the first to propose a new Multi-Human Parsing task, corresponding datasets and baseline methods.
+- To our best knowledge, we are the first to propose a new Multi-Human Parsing task, corresponding datasets and baseline methods.
 
 
 ### Problem Definition
