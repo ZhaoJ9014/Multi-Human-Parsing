@@ -1,7 +1,4 @@
 ### Multi-Human-Parsing (MHP)
-- Jianshu Li*, Jian Zhao*, Yunchao Wei, Congyan Lang, Yidong Li, Jiashi Feng, "Towards Real World Human Parsing: Multiple-Human Parsing in the Wild", ArXiv 2017. (* indicates equal contributions)
-
-
 To our best knowledge, we are the first to propose a new Multi-Human Parsing task, corresponding datasets and baseline methods.
 
 
