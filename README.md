@@ -1,4 +1,4 @@
-- [Multi-Human-Parsing (MHP)](lv-mhp.github.io)
+### Multi-Human-Parsing (MHP)
 
 ### Originality
 - To our best knowledge, we are the first to propose a new Multi-Human Parsing task, corresponding datasets and baseline methods.
