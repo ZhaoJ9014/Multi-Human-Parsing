@@ -39,7 +39,7 @@
 
 
 ### Evaluation Metrics
-- Multi-Human Parsing: We use two human-centric metrics for multi-human parsing evaluation, which are initially reported by the [MHP v1.0 paper](https://arxiv.org/pdf/1705.07206.pdf). The two metrics are Average Precision based on part (APp) (%) and Percentage of Correctly parsed semantic Parts (PCP) (%). For evaluation code, please refer to the "Evaluation" folder under our "Multi-Human-Parsing_MHP" repository.
+- Multi-Human Parsing: We use two human-centric metrics for multi-human parsing evaluation, which are initially reported by our [MHP v1.0 paper](https://arxiv.org/pdf/1705.07206.pdf). The two metrics are Average Precision based on part (APp) (%) and Percentage of Correctly parsed semantic Parts (PCP) (%). For evaluation code, please refer to the "Evaluation" folder under our "Multi-Human-Parsing_MHP" repository.
 
 
 - Multi-Human Pose Estimation: Followed MPII, we use mAP (%) evaluation measure.
