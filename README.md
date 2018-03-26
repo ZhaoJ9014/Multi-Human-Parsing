@@ -51,7 +51,7 @@
 
 - [Call for Papers](https://www.ece.nus.edu.sg/lv/files/VUHCS2018.pdf)
 
-- [Project](https://lv-mhp.github.io/)
+- [Result Submission](https://lv-mhp.github.io/)
 
 
 ### Citation
