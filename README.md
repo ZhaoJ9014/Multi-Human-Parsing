@@ -31,6 +31,10 @@
 - Download: The MHP v1.0 dataset is available at [google drive](https://drive.google.com/file/d/1hTS8QJBuGdcppFAr_bvW2tsD9hW_ptr5/view?usp=sharing) and [baidu drive](https://pan.baidu.com/s/1mjTtWqW) (password: cmtp).
 
 
+### Multi-Human Parsing (MHP) v2.0 Dataset
+<img src="https://github.com/ZhaoJ9014/Multi-Human-Parsing_MHP/blob/master/Figures/Fig3.png" width="1000px"/>
+
+
 ### CVPR VUHCS2018 Workshop
 - We will organize the CVPR 2018 Workshop on Visual Understanding of Humans in Crowd Scene ([VUHCS2018](https://vuhcs.github.io/#portfolio)). This workshop is collaborated by NUS, CMU, and SYSU. Based on VUHCS2017, we have further strengthened this workshop by augmenting it with 6 competition tracks: the single-person human parsing, the single-person pose estimation, the multi-person human parsing, the multi-person video parsing, the fine-grained multi-human parsing, and the multi-human pose estimation, which are expected to be released on 04/2018.
 
