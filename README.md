@@ -35,6 +35,9 @@
 <img src="https://github.com/ZhaoJ9014/Multi-Human-Parsing_MHP/blob/master/Figures/Fig3.png" width="1000px"/>
 
 
+- Statistics: The MHP v2.0 dataset contains 25,795 images, each with at least two persons (average is 3). We randomly choose 5,000 images and their corresponding annotations as the testing set. The rest form a training set of 15,795 images and a validation set of 5,000 images. For each instance, 58 semantic categories are defined and annotated except for the "background" category, i.e. "cap/hat", "helmet", "face", "hair", "left-arm", "right-arm", "left-hand", "right-hand", "protector", "bikini/bra", "jacket/windbreaker/hoodie", "tee-shirt", "polo-shirt", "sweater", "singlet", "torso-skin", "pants", "shorts/swim-shorts", "skirt", "stockings", "socks", "left-boot", "right-boot", "left-shoe", "right-shoe", "left-highheel", "right-highheel", "left-sandal", "right-sandal", "left-leg", "right-leg", "left-foot", "right-foot", "coat", "dress", "robe", "jumpsuit", "other-full-body-clothes", "headwear", "backpack", "ball", "bats", "belt", "bottle", "carrybag", "cases", "sunglasses", "eyewear", "glove", "scarf", "umbrella", "wallet/purse", "watch", "wristband", "tie", "other-accessary", "other-upper-body-clothes" and "other-lower-body-clothes". Each instance has a complete set of annotations whenever the corresponding category appears in the current image. 
+
+
 ### CVPR VUHCS2018 Workshop
 - We will organize the CVPR 2018 Workshop on Visual Understanding of Humans in Crowd Scene ([VUHCS2018](https://vuhcs.github.io/#portfolio)). This workshop is collaborated by NUS, CMU, and SYSU. Based on VUHCS2017, we have further strengthened this workshop by augmenting it with 6 competition tracks: the single-person human parsing, the single-person pose estimation, the multi-person human parsing, the multi-person video parsing, the fine-grained multi-human parsing, and the multi-human pose estimation, which are expected to be released on 04/2018.
 
