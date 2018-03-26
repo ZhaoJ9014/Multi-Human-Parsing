@@ -62,8 +62,8 @@
 
 
       @article{li2017towards,
-      title={Towards Real World Human Parsing: Multiple-Human Parsing in the Wild},
-      author={Li, Jianshu and Zhao, Jian and Wei, Yunchao and Lang, Congyan and Li, Yidong and Feng, Jiashi},
+      title={Multi-Human Parsing in the Wild},
+      author={Li, Jianshu and Zhao, Jian and Wei, Yunchao and Lang, Congyan and Li, Yidong and Sim, Terence and Yan, Shuicheng and Feng, Jiashi},
       journal={arXiv preprint arXiv:1705.07206},
       year={2017}
       }
