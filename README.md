@@ -44,6 +44,9 @@
 - Download: The MHP v2.0 dataset is available at [google drive](https://drive.google.com/file/d/1d8yI_HFWXM4z15ab4pwp3hqntWCD0XhP/view?usp=sharing) and [baidu drive](https://pan.baidu.com/s/1pwKbL3zQKFPhfSEblRSVAA) (password: vy54).
 
 
+- We will release our MHP v2.0 paper soon.
+
+
 ### Evaluation Metrics
 - Multi-Human Parsing: We use two human-centric metrics for multi-human parsing evaluation, which are initially reported by our [MHP v1.0 paper](https://arxiv.org/pdf/1705.07206.pdf). The two metrics are Average Precision based on part (AP<sup>p</sup>) (%) and Percentage of Correctly parsed semantic Parts (PCP) (%). For evaluation code, please refer to the "Evaluation" folder under our "Multi-Human-Parsing_MHP" repository.
 
