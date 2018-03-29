@@ -28,7 +28,7 @@
 - Statistics: The MHP v1.0 dataset contains 4,980 images, each with at least two persons (average is 3). We randomly choose 980 images and their corresponding annotations as the testing set. The rest form a training set of 3,000 images and a validation set of 1,000 images. For each instance, 18 semantic categories are defined and annotated except for the "background" category, i.e. “hat”, “hair”, “sunglasses”, “upper clothes”, “skirt”, “pants”, “dress”, “belt”, “left shoe”, “right shoe”, “face”, “left leg”, “right leg”, “left arm”, “right arm”, “bag”, “scarf” and “torso skin”. Each instance has a complete set of annotations whenever the corresponding category appears in the current image. 
 
 
-- [Wechat News](https://mp.weixin.qq.com/s/tfiPHvkhPW4HDEUzBMseGQ). 
+- [WeChat News](https://mp.weixin.qq.com/s/tfiPHvkhPW4HDEUzBMseGQ). 
 
 
 - Download: The MHP v1.0 dataset is available at [google drive](https://drive.google.com/file/d/1hTS8QJBuGdcppFAr_bvW2tsD9hW_ptr5/view?usp=sharing) and [baidu drive](https://pan.baidu.com/s/1mjTtWqW) (password: cmtp).
@@ -67,7 +67,7 @@
 - [Result Submission](https://lv-mhp.github.io/).
 
 
-- [Wechat News](https://mp.weixin.qq.com/s/0W3AOMTeOyngnM1WA-8C5w).
+- [WeChat News](https://mp.weixin.qq.com/s/0W3AOMTeOyngnM1WA-8C5w).
 
 
 ### Citation
