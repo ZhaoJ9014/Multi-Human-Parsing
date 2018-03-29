@@ -62,6 +62,8 @@
 
 - [Result Submission](https://lv-mhp.github.io/)
 
+- [Wechat News](https://mp.weixin.qq.com/s/0W3AOMTeOyngnM1WA-8C5w)
+
 
 ### Citation
 - [wechat news](https://mp.weixin.qq.com/s/tfiPHvkhPW4HDEUzBMseGQ). Please consult and consider citing the following papers:
