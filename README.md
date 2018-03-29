@@ -66,7 +66,7 @@
 
 
 ### Citation
-- [wechat news](https://mp.weixin.qq.com/s/tfiPHvkhPW4HDEUzBMseGQ). Please consult and consider citing the following papers:
+- [Wechat News](https://mp.weixin.qq.com/s/tfiPHvkhPW4HDEUzBMseGQ). Please consult and consider citing the following papers:
 
 
       @article{li2017towards,
