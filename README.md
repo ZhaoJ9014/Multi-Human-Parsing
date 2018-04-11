@@ -47,7 +47,7 @@
 - Download: The MHP v2.0 dataset is available at [google drive](https://drive.google.com/file/d/1d8yI_HFWXM4z15ab4pwp3hqntWCD0XhP/view?usp=sharing) and [baidu drive](https://pan.baidu.com/s/1pwKbL3zQKFPhfSEblRSVAA) (password: vy54).
 
 
-- Please refer to our [MHP v2.0 paper](https://zhaoj9014.github.io/pub/MHP_v2.pdf) for more details.
+- Please refer to our [MHP v2.0 paper](https://arxiv.org/pdf/1804.03287.pdf) for more details.
 
 
 ### Evaluation Metrics
