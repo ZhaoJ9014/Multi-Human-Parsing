@@ -77,6 +77,14 @@
 - Please consult and consider citing the following papers:
 
 
+      @article{zhao2018understanding,
+      title={Understanding Humans in Crowded Scenes: Deep Nested Adversarial Learning and A New Benchmark for Multi-Human Parsing},
+      author={Zhao, Jian and Li, Jianshu and Cheng, Yu and Zhou, Li and Sim, Terence and Yan, Shuicheng and Feng, Jiashi},
+      journal={arXiv preprint arXiv:1804.03287},
+      year={2018}
+      }
+
+
       @article{li2017towards,
       title={Multi-Human Parsing in the Wild},
       author={Li, Jianshu and Zhao, Jian and Wei, Yunchao and Lang, Congyan and Li, Yidong and Sim, Terence and Yan, Shuicheng and Feng, Jiashi},
