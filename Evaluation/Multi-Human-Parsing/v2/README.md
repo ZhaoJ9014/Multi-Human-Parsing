@@ -11,3 +11,6 @@ eval_sumission.py: This scripts takes in the format of submission (https://lv-mh
 
 
 voc_eval.py: A helper scripts.
+
+
+Note: Due to the data saving format of our annotation tool, all ground truth files have 3 channels. Please perform simple data pre-processing by only utilizing 1 channel for training and testing purposes.   
