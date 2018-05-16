@@ -1,4 +1,4 @@
-## Multi-Human Parsing Version 1.0 Evluation
+## Multi-Human Parsing Version 1.0 Evaluation
 
 
 mhp_data.py: This script generates a list of data, and also visualizes the dataset.
