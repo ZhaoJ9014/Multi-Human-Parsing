@@ -10,7 +10,7 @@
 - Note: the instance segmentation image should be stored in the "SegmentationObject" folder and the object annotation should be stored in the "Annotations" folder, same as the official file organization in PASCAL VOC2012. It is suggested to use SBD for expansion of the training data.
 
 
-- Download and unzip the ImageNet pre-trained WS-ResNet "model" folder into the root directory.
+- [Download](https://drive.google.com/drive/folders/1zycuNwILRBNy25ptQeI_DA5yripjhNiD?usp=sharing) and unzip the ImageNet pre-trained WS-ResNet model folder into the root directory.
 
 
 - Run train_step1.py, train_step2.py and train_step3.py to perform the step-wise training (the end-to-end version will come soon). The training process will be output into corresponding folders created automatically after you run the scripts.
