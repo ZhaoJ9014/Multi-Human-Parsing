@@ -14,3 +14,15 @@
 
 
 - Run train_step1.py, train_step2.py and train_step3.py to perform the step-wise training (the end-to-end version will come soon). The training process will be output into corresponding folders created automatically after you run the scripts.
+
+
+### Citation
+- Please consult and consider citing the following paper:
+
+
+      @article{zhao2018understanding,
+      title={Understanding Humans in Crowded Scenes: Deep Nested Adversarial Learning and A New Benchmark for Multi-Human Parsing},
+      author={Zhao, Jian and Li, Jianshu and Cheng, Yu and Zhou, Li and Sim, Terence and Yan, Shuicheng and Feng, Jiashi},
+      journal={arXiv preprint arXiv:1804.03287},
+      year={2018}
+      }
