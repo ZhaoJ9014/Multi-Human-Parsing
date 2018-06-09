@@ -15,8 +15,11 @@ def _get_transformer_image():
 	transformers.append(ts.ColorNormalize(mean_, std_))
 	return transformers
 
-def read_img(im_path,size,padding=False):
-	transformers = [ts.Scale(size, Image.CUBIC, False)]
+def read_img(im_path,size,padding=False,scale=True):
+	if scale:
+		transformers = [ts.Scale(size, Image.CUBIC, False)]
+	else:
+		transformers = []
 	transformers += _get_transformer_image()
 	transformer = ts.Compose(transformers)
 	raw_im = np.array(Image.open(im_path).convert('RGB'), np.uint8)

@@ -270,7 +270,8 @@ def color_map(N=256, normalized=False):
 # Training
 
 reader = data_reader('train.lst')
-net = network()
+with tf.variable_scope('inst_part'):
+    net = network()
 
 MAX_ITER = 100000
 BSIZE = 1
