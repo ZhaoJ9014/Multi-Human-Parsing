@@ -40,7 +40,7 @@ class network():
         self.saver = tf.train.Saver()
         self.sess = tf.Session()
         # self.writer = tf.summary.FileWriter('./logs/',self.sess.graph)
-        M.loadSess('./model/',self.sess,init=True,var_list=self.net_body.var)
+        M.loadSess('./savings_inst_model/',self.sess,init=True,var_list=M.get_trainable_vars('inst_part/WideRes'))
 
         # set class variables
         # holders
@@ -131,15 +131,16 @@ class network():
         with tf.variable_scope('inst_loss'):
             inst_loss = tf.reduce_mean(tf.square(inst_layer - inst_holder))
 
-        var_m = M.get_trainable_vars('MergingLayer')
-        var_c = M.get_trainable_vars('stream')
-        var_i = M.get_trainable_vars('inst_layer')
+        var_m = M.get_trainable_vars('inst_part/MergingLayer')
+        var_c = M.get_trainable_vars('inst_part/stream')
+        var_i = M.get_trainable_vars('inst_part/inst_layer')
+        var_net = M.get_trainable_vars('inst_part/WideRes')
 
         with tf.variable_scope('overall_loss'):
             overall_loss = 5*coord_loss + inst_loss
 
         train_step = tf.train.AdamOptimizer(0.0001).minimize(overall_loss,var_list=var_m) # merging layer
-        train_step2 = tf.train.AdamOptimizer(1e-5).minimize(overall_loss,var_list=self.net_body.var) # main body
+        train_step2 = tf.train.AdamOptimizer(1e-5).minimize(overall_loss,var_list=var_net) # main body
         train_step4 = tf.train.AdamOptimizer(0.0001).minimize(10*coord_loss,var_list=var_c) # coord streams
         train_step5 = tf.train.AdamOptimizer(0.0001).minimize(inst_loss,var_list=var_i) # instant prediction
         with tf.control_dependencies([train_step,train_step2,train_step4,train_step5]):

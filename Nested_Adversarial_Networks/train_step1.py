@@ -26,7 +26,7 @@ class network():
 
         self.saver = tf.train.Saver()
         self.sess = tf.Session()
-        M.loadSess('./model/',self.sess,init=True,var_list=self.net_body.var)
+        M.loadSess('./savings_bgfg/',self.sess,init=True,var_list=M.get_trainable_vars('bg_fg/WideRes'))
 
         self.inp_holder = inp_holder
         self.lab_holder = lab_holder
@@ -44,10 +44,11 @@ class network():
         lab_reform = tf.squeeze(lab_reform)
         seg_loss = tf.reduce_mean(tf.nn.sparse_softmax_cross_entropy_with_logits(logits=seg_layer,labels=lab_reform))
 
-        var_s = M.get_trainable_vars('SegLayer')
+        var_s = M.get_trainable_vars('bg_fg/SegLayer')
+        var_net = M.get_trainable_vars('bg_fg/WideRes')
 
         train_step = tf.train.AdamOptimizer(0.0001).minimize(seg_loss,var_list=var_s)
-        train_step2 = tf.train.AdamOptimizer(1e-6).minimize(seg_loss,var_list=self.net_body.var)
+        train_step2 = tf.train.AdamOptimizer(1e-6).minimize(seg_loss,var_list=var_net)
         upds = M.get_update_ops()
         with tf.control_dependencies(upds+[train_step,train_step2]):
             train_op = tf.no_op()
