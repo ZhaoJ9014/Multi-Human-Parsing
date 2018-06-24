@@ -13,6 +13,8 @@
 - [Download](https://drive.google.com/drive/folders/1zycuNwILRBNy25ptQeI_DA5yripjhNiD?usp=sharing) and unzip the ImageNet pre-trained WS-ResNet model folder into the root directory.
 
 
+- Run deploy_pretrain.py. 
+
 - Run train_step1.py, train_step2.py and train_step3.py to perform step-wise training. Run train_e2e to perform end-to-end fine-tuning. The training process will be output into corresponding folders created automatically after you run the scripts.
 
 
