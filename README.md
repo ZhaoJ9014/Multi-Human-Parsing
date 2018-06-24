@@ -61,10 +61,10 @@
 
 
 ### CVPR VUHCS2018 Workshop
-- We will organize the CVPR 2018 Workshop on Visual Understanding of Humans in Crowd Scene ([VUHCS 2018](https://vuhcs.github.io/#portfolio)). This workshop is collaborated by NUS, CMU and SYSU. Based on VUHCS 2017, we have further strengthened this Workshop by augmenting it with 5 competition tracks: the single-person human parsing, the multi-person human parsing, the single-person pose estimation, the fine-grained multi-human parsing and the multi-human pose estimation.
+- We have organized the CVPR 2018 Workshop on Visual Understanding of Humans in Crowd Scene ([VUHCS 2018](https://vuhcs.github.io/#portfolio)). This workshop is collaborated by NUS, CMU and SYSU. Based on VUHCS 2017, we have further strengthened this Workshop by augmenting it with 5 competition tracks: the single-person human parsing, the multi-person human parsing, the single-person pose estimation, the multi-human pose estimation and the fine-grained multi-human parsing.
 
 
-- [Result Submission](https://lv-mhp.github.io/).
+- [Result Submission & Leaderboard](https://lv-mhp.github.io/).
 
 
 - [WeChat News](https://mp.weixin.qq.com/s/0W3AOMTeOyngnM1WA-8C5w).
