@@ -205,3 +205,9 @@ class Model():
 				self.result = tf.pad(self.result,[[0,0],[padding,padding],[padding,padding],[0,0]])
 			self.inpsize = self.result.get_shape().as_list()
 		return self.result
+
+	def flatten(self):
+		self.result = tf.reshape(self.result,[-1,self.inpsize[1]*self.inpsize[2]*self.inpsize[3]])
+		self.transShape = [self.inpsize[1],self.inpsize[2],self.inpsize[3],0]
+		self.inpsize = [None,self.inpsize[1]*self.inpsize[2]*self.inpsize[3]]
+		return self.result
