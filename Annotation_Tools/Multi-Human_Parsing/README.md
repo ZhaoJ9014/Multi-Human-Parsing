@@ -25,4 +25,5 @@
 * Run the python script "SimpleHTTPServerWithUpload.py".
 
 
-* Open your explorer and input the link http://127.0.0.1:8000/ to access the annotation tool.
+* Open your explorer and input the link http://127.0.0.1:8000/ to access the annotation tool. 
+<img src="https://github.com/ZhaoJ9014/Multi-Human-Parsing_MHP/blob/master/Annotation_Tools/Multi-Human_Parsing/Pub/SuppFig1.png" width="1000px"/>
