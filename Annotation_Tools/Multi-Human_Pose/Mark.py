@@ -115,13 +115,13 @@ def save_pt():
 
 def write_20p(fname):
 	global p20,personNum,d
-	p20 = p20 / scale
+	p20 = p20 * scale
 	lst = []
 	for i in range(20):
 		if p20[i][2]!=0.:
 			p20[i][0]=-1
 			p20[i][1]=-1
-		lst.append([p20[i][0],p20[i][1],p20[i][2]*scale])
+		lst.append([p20[i][0],p20[i][1],p20[i][2]/scale])
 	lst = np.float32(lst)
 	d['person_'+str(personNum)] = lst
 
