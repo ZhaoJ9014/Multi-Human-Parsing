@@ -11,3 +11,6 @@
 
 
 * Put the image data to annotate under ./data/images/
+
+
+* Modify Generate_List.py to generate your data lists for annotation. 
