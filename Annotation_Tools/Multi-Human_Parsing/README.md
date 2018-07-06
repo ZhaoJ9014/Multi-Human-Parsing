@@ -17,3 +17,12 @@
 
 
 * Modify the contents of "labels" in "multi_person_web.json" and "multi_person.json" based on your own semantic category definition.
+
+
+## Annotation Instructions
+
+
+* Run the python script "SimpleHTTPServerWithUpload.py".
+
+
+* Open your explorer and input the link http://127.0.0.1:8000/ to access the annotation tool.
