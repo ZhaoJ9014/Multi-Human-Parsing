@@ -10,7 +10,7 @@
 ## Prepare Images for Annotation
 
 
-* Put the image data to annotate under ./data/images/
+* Put the image data to annotate under ./data/images/, the annotations will be stored under ./data/annotations/ automatically after annotation.
 
 
-* Modify Generate_List.py to generate your data lists for annotation. 
+* Modify Generate_List.py to generate your data lists for annotation. Copy the contents to replace the  
