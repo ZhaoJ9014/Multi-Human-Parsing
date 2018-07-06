@@ -1,0 +1,12 @@
+clc
+clear all
+
+fileFolder=fullfile('.\data\images');
+dirOutput=dir(fullfile(fileFolder));
+fileNames={dirOutput.name}';
+for i = 3:length(fileNames)
+    img_name = strcat('"data/images/', fileNames{i, 1}, '"');
+    fid = fopen('/home/zhaojian/Documents/Projects/FACE/IJBA_split10/cleaned_data/train_SUBJECT_ID.txt','a+');
+    fprintf(fid,'\r\n%d', subject_id);   
+    fclose(fid);
+end
