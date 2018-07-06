@@ -1,4 +1,4 @@
-## Annotation Tool for Multi-Human Parsing
+# Annotation Tool for Multi-Human Parsing
 
 
 ## Pre-requisites
