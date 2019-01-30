@@ -1,5 +1,7 @@
 ### Multi-Human-Parsing (MHP)
 
+:star: ACM MM'18 [Best Student Paper](http://www.acmmm.org/2018/awards/)
+
 ### Originality
 - To our best knowledge, we are the first to propose a new Multi-Human Parsing task, corresponding datasets, evaluation metrics and baseline methods.
 
