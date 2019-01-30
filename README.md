@@ -1,5 +1,4 @@
 ### Multi-Human-Parsing (MHP)
-   ———ACM MM'18 ["Best Student Paper"](http://www.acmmm.org/2018/awards/)
 
 ### Originality
 - To our best knowledge, we are the first to propose a new Multi-Human Parsing task, corresponding datasets, evaluation metrics and baseline methods.
@@ -51,7 +50,7 @@
 - Download: The MHP v2.0 dataset is available at [google drive](https://drive.google.com/file/d/1YVBGMru0dlwB8zu1OoErOazZoc8ISSJn/view?usp=sharing) and [baidu drive](https://pan.baidu.com/s/1BvdoyKgm-RlINBGghmvrOQ) (password: uxrb).
 
 
-- Please refer to our [MHP v2.0 paper](https://arxiv.org/pdf/1804.03287.pdf) for more details.
+- Please refer to our [MHP v2.0 paper](https://arxiv.org/pdf/1804.03287.pdf) (ACM MM'18 [Best Student Paper](http://www.acmmm.org/2018/awards/)) for more details.
 
 
 ### Evaluation Metrics
