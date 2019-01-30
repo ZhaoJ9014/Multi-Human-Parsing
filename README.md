@@ -35,6 +35,8 @@
 
 - Download: The MHP v1.0 dataset is available at [google drive](https://drive.google.com/file/d/1hTS8QJBuGdcppFAr_bvW2tsD9hW_ptr5/view?usp=sharing) and [baidu drive](https://pan.baidu.com/s/1mjTtWqW) (password: cmtp).
 
+- Please refer to our [MHP v1.0 paper](https://arxiv.org/pdf/1705.07206.pdf) (submitted to IJCV) for more details.
+
 
 ### Multi-Human Parsing (MHP) v2.0 Dataset
 <img src="https://github.com/ZhaoJ9014/Multi-Human-Parsing_MHP/blob/master/Figures/Fig3.png" width="1000px"/>
