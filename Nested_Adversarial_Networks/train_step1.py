@@ -39,9 +39,9 @@ class network():
         return mod.get_current_layer()
 
     def build_loss(self,seg_layer,lab_holder):
-        lab_reform = tf.expand_dims(lab_holder,-1)
-        lab_reform = tf.image.resize_images(seg_layer,tf.shape(lab_reform)[1:3])
-        lab_reform = tf.squeeze(lab_reform)
+        lab_reform = tf.expand_dims(lab_holder, -1) # 460 x 460 x 1
+        seg_layer = tf.image.resize_images(seg_layer, tf.shape(lab_reform)[1:3]) # 460 x 460 x 2
+        lab_reform = tf.squeeze(lab_reform, axis=3) # 460 x 460 x 2
         seg_loss = tf.reduce_mean(tf.nn.sparse_softmax_cross_entropy_with_logits(logits=seg_layer,labels=lab_reform))
 
         var_s = M.get_trainable_vars('bg_fg/SegLayer')
