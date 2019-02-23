@@ -4,19 +4,19 @@
 
 ### Progress
 
--[x] Model building
+- [x] Model building
 
--[ ] Data reader
+- [ ] Data reader
 
--[ ] Loss functions and training pipeline (step-wise)
+- [ ] Loss functions and training pipeline (step-wise)
 
--[ ] Debug
+- [ ] Debug
 
--[ ] End-to-end training
+- [ ] End-to-end training
 
--[ ] Another debug
+- [ ] Another debug
 
--[ ] Simple evaluation
+- [ ] Simple evaluation
 
 ### Requirement 
 
