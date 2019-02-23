@@ -3,6 +3,7 @@
 
 - Sample training code of NAN in PASCAL VOC2012. For fine-tuning on MHP v2.0, MHP v1.0, PASCAL-Person-Part and Buffy, please follow the similar procedures as the pre-training on PASCAL VOC2012 and relevant details in our [MHP v2.0 paper](https://arxiv.org/pdf/1804.03287.pdf).
 
+- We are re-working the codes for NAN model [here](https://github.com/ZhaoJ9014/Multi-Human-Parsing/tree/master/Nested_Adversarial_Networks/NAN_rework)
 
 - "train.list" is the training image list: Left column: path of RGB images; Right column: path of annotations.
 
