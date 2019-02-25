@@ -3,7 +3,6 @@ import modeleag as M
 import tensorflow as tf 
 
 class ConvBlocks(M.Model):
-
 	def initialize(self, fmap, stride=2):
 		self.bn0 = L.batch_norm()
 		self.activ = L.activation(M.PARAM_RELU)
@@ -27,7 +26,6 @@ class ConvBlocks(M.Model):
 		return res 
 
 class IdentityBlock(M.Model):
-
 	def initialize(self, fmap):
 		self.bn0 = L.batch_norm()
 		self.activ = L.activation(M.PARAM_RELU)
@@ -229,3 +227,16 @@ class InstSegNet(M.Model):
 		streams_fusion = self.streams_fusion(tf.concat(stream_outputs, -1))
 		stream_outputs.append(streams_fusion)
 		return stream_outputs
+
+class DisNet(M.Model):
+	def initialize(self):
+		self.c0 = M.ConvLayer(5, 16, stride=1, activation=M.PARAM_RELU)
+		self.c1 = M.ConvLayer(5, 32, stride=2, activation=M.PARAM_RELU) 
+		self.c2 = M.ConvLayer(5, 64, stride=1, activation=M.PARAM_RELU)
+		self.c3 = M.ConvLayer(5, 128, stride=2, activation=M.PARAM_RELU)
+		self.c4 = M.ConvLayer(3, 256, stride=2, activation=M.PARAM_RELU)
+		self.c5 = M.ConvLayer(1, 1)
+
+	def forward(self, x):
+		logits = self.c5(self.c4(self.c3(self.c2(self.c1(self.c0(x))))))
+		return logits 
