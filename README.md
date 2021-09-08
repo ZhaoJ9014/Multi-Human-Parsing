@@ -74,6 +74,16 @@
 - [WeChat News](https://mp.weixin.qq.com/s/0W3AOMTeOyngnM1WA-8C5w).
 
 
+
+****
+### Donation 
+:moneybag:
+
+* Your donation is highly welcomed to help us further develop the Multi-Human Parsing project to better facilitate more cutting-edge researches and applications on human-centric multi-media understanding. The donation QR code via Wechat is as below. Appreciate it very much:heart:
+ 
+  <img src="https://github.com/ZhaoJ9014/Multi-Human-Parsing/blob/master/Figure/Donation.jpeg" width="200px"/>
+  
+
 ### Citation
 - Please consult and consider citing the following papers:
 
