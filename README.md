@@ -78,6 +78,38 @@
 ### Citation
 - Please consult and consider citing the following papers:
 
+      @article{chu2024uniparser,
+      title={UniParser: Multi-Human Parsing with Unified Correlation Representation Learning},
+      author={Chu, Jiaming and Jin, Lei and Teng, Yinglei and Li, Jianshu and Wei, Yunchao and Wang, Zheng and Xing, Junliang and Yan, Shuicheng and Zhao, Jian},
+      journal={T-IP},
+      year={2024}
+      }
+
+
+      @article{xie2024prcl,
+      title={PRCL: Probabilistic Representation Contrastive Learning for Semi-Supervised Semantic Segmentation},
+      author={Xie, Haoyu and Wang, Changqi and Zhao, Jian and Liu, Yang and Dan, Jun and Fu, Chong and Sun, Baigui},
+      journal={IJCV},
+      year={2024}
+      }
+
+
+      @article{zhao2020fine,
+      title={Fine-Grained Multi-Human Parsing},
+      author={Zhao, Jian and Li, Jianshu and Liu, Hengzhu and Yan, Shuicheng and Feng, Jiashi},
+      journal={IJCV},
+      year={2020}
+      }  
+
+
+      @inproceedings{chu2023single,
+      title={Single-Stage Multi-Human Parsing via Point Sets and Center-based Offsets},
+      author={Chu, Jiaming and Jin, Lei and Fan, Xiaojin and Teng, Yinglei and Wei, Yunchao and Fang, Yuqiang and Xing, Junliang and Zhao, Jian},
+      booktitle={Proceedings of the 31st ACM International Conference on Multimedia},
+      pages={1863--1873},
+      year={2023}
+      }
+
 
       @article{zhao2018understanding,
       title={Understanding Humans in Crowded Scenes: Deep Nested Adversarial Learning and A New Benchmark for Multi-Human Parsing},
